@@ -5,16 +5,16 @@ import GetToken from "./components/GetToken"
 import TestApi from "./components/TestApi"
 
 function App() {
-  return (
-    <>
-      <p>Auth0</p>
-      <LoginButton></LoginButton>
-      <LogoutButton></LogoutButton>
-      <GetToken></GetToken>
-      <Profile></Profile>
-      <TestApi></TestApi>
-    </>
-  )
+    return (
+        <>
+            <p>Auth0</p>
+            <LoginButton></LoginButton>
+            <LogoutButton></LogoutButton>
+            <GetToken></GetToken>
+            <Profile></Profile>
+            <TestApi></TestApi>
+        </>
+    )
 }
 
 export default App
