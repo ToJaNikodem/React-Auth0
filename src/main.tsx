@@ -40,8 +40,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             domain="dev-cy4goo12hi3sqc3t.eu.auth0.com"
             clientId="AbNrvLrrwLwRtjyCZBl2M1OpiidcEk00"
             authorizationParams={{
-                audience: "http://localhost:5062/",
-                redirect_uri: window.location.origin
+                audience:  "http://localhost:5062/api/",
+                redirect_uri: window.location.origin,
+                scope: "read:all read:messages"
             }}
         >
             <App />
